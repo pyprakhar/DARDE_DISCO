@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOF</title>
+  
+
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    
+    <main>
+        <div class="video-container">
+            <!-- Embedded YouTube video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z51bWG17m-Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        
+        <div class="subtitles" id="subtitles">
+            <p>Click the English (Automatic) option if available.
+                Test the captions for accuracy by playing the video and observing the captions. You will probably need to add punctuation to separate sentences.
+                To edit captions, click the Edit button (upper right). Select the line that needs repair in the captioning editor text box, and make the edits.
+                If needed, you can alter the timing by changing the timecode values, or by clicking and dragging the vertical dividers below the video.
+                If desired, click the Add below (+) or Remove (×) icons to add or remove caption segments</p>
+        </div>
+        
+        <div class="controls">
+            <button id="translate-button">Translate</button>
+            <button id="dummy-button">Dummy Button</button>
+            <select id="language-selector">
+                <option value="en">English</option>
+                <option value="es">hindi</option>
+                <option value="fr">French</option>
+                <!-- Add more languages as needed -->
+            </select>
+        </div>
+    </main>
+
+    <script src="video.js"></script>
+</body>
+</html>

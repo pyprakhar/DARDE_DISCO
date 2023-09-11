@@ -1,0 +1,137 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(186, 137, 22);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(53, 50, 42);
+    padding: 10px 20px; /* Add padding for clickable area */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+    background-color: #f1da66; /* Change background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for Courses page */
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-category {
+    width: 25%; /* Adjust as needed */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a subtle hover effect */
+}
+
+.course-category:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Styles for Mentors page */
+.mentors-search {
+    text-align: center;
+    margin: 20px;
+}
+
+.mentors-search input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* Add more styles for the Mentors content as needed */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: typing 3s steps(20) 1s infinite alternate;
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

@@ -1,0 +1,132 @@
+
+
+/* Basic styles (adjust as needed) */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth ;
+}
+
+p
+{
+    font-weight: 300;
+    color: #111;
+}
+header
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+header .logo
+{
+    color: #e8116e;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+header .logo span
+{
+    color: #000000;
+    font-size: 0.5em;
+}
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300;
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+header .navigation li a:hover
+{
+    color: #fe0059;
+} */
+
+/* .sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(238, 221, 221, 0.05);
+}
+
+.sticky .logo
+{
+    color: #111111;
+}
+
+.sticky .navigation li a
+{
+    color: #111;
+} */
+
+
+/* Styles for Course Cards */
+.course-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.course-card p {
+    color: #555;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .course-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* =================================================================logo*/
